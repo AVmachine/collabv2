@@ -1,0 +1,17 @@
+body{
+	border: 5px dotted rgb(200, 220, 150);
+}
+
+nav{
+	border: 5px solid black;
+}
+
+main{
+	border: 5px dashed rgb(150, 150, 150);
+}
+h1{
+	color: blue;
+}
+footer{
+	border: 5px solid green;
+}
