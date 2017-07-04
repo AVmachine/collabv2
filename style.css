@@ -5,6 +5,10 @@ body {
 nav {
 	border: 5px solid black;
 }
+nav img{
+	width: 100%;
+	height: 5%;
+}
 nav ul {
 	display: inline-block;
 	margin-left: auto;
