@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	background: rgb(88, 98, 108);
 	color: white;
+	font-family:"century gothic", sans-serif;
 }
 
 nav {
@@ -18,15 +19,25 @@ nav img{
 main {
 
 }
+main p{
+	margin-left: 135px;
+}
+#search_button{
+	margin-left: 135px;
+}
 main iframe{
 	width: 75%;
 	height: 500px;
 	overflow-y: scroll;
 	scroll-behavior: auto;
+	display: block;
+	margin: 0 auto;	
+}
+#search_results{
+
 }
 h1 {
 	color: white;
 	text-align: center;
-	font-family: sans-serif;
 	font-weight: normal;
 }
