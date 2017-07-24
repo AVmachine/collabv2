@@ -3,30 +3,71 @@
 <head>
 	<title>Gaian Collab Website</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	<link rel="stylesheet" type="text/css" href="960_12_col.css">
+	<style type="text/css">
+		body{
+			height: 100%;
+			font-family: "century gothic";
+			padding-bottom: 20px;
+			background-image: -webkit-linear-gradient(#000000, #66ccce);
+			background-repeat: no-repeat;
+			padding: 0px;
+			margin: 0px;
+		}
+		#search_results{
+			padding-top: 10px;
+		}
+		main{
+			color: white;
+			overflow: auto;
+			width: 100%;
+			background-color: black;
+			padding-bottom: 165px;
+		}
+		iframe{
+			margin-top: 10px;
+		}
+		nav {
+			background-image: url("images/DSC_0056.jpg");
+			height: 100px;
+			background-position: center left;
+
+		}
+		footer{
+			background-image: url("images/DSC_0056.jpg");
+			height: 100px;
+			background-position: center left;
+
+		}
+
+		
+	</style>
 	<script type="text/javascript" src="main.js"></script>
 </head>
-<body>
+<body class="container_12">
 	<nav>
-		<img src="images/logoforwebsite2.jpg" id="logo">
+		<div class="grid_12"></div>
 		</nav>
-	<div class="container">
+	<div>
 	<main>
-		<h1>Youtube Video Search</h1>
+		<h1 class="grid_6 suffix_6">Youtube Video Search</h1>
 		<form>
-		<p>Enter query:
-		<input type="text" id="search_bar"></br>
-		<input type="button" id="search_button" value="Search">
-		</p>
-		</form>
-		<iframe src="https://www.youtube.com/embed/" scolling="yes"></iframe>
-		<div id="search_results"></div>
+		<div class="grid_4 suffix_8">
+			<p class="grid_2">Enter query:
+			<input type="text" id="search_bar"></br>
+			<input type="button" id="search_button" value="Search">
+			</p>
+			</form>
+		</div>
+		<div class="grid_3" id="search_results"></div>
+		<iframe class="grid_8" height="400" src="https://www.youtube.com/embed/" scolling="yes"></iframe>
 	</main>
 	</div>
-	<footer>
-		
-	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<footer>
+				<div class="grid_12" id="navBarImg"></div>
+	</footer>
 </body>
 </html>
